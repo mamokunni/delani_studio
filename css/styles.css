@@ -2,11 +2,13 @@
   height: auto;
   width: auto;
   background-image: url("../assets/backgrounds/h_img.jpg");
+  background-attachment: fixed;
 }
 .home_page_text{
   text-align: center;
   color: white;
   margin-top: 400px;
+  background-attachment: fixed;
 }
 .home_mouse{
   text-align: center;
@@ -22,11 +24,13 @@
 .services{
   text-align: center;
   background-image: url(../assets/backgrounds/s_image.jpg);
+  background-attachment: fixed;
   padding: 70px;
   color: white;
   line-height: 40px;
   height: auto;
   width: auto;
+
 }
 
 .what_we_do{
@@ -55,15 +59,26 @@
   background-image: url(../assets/backgrounds/c_image.jpg);
   text-align: center;
   color: white;
-  height: 500px;
-  width: 110%;
-  margin: -20px;
+  background-attachment: fixed;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
 
 }
 
-.contact_us .col-md-4{
+.contact_form{
+  text-align: center;
+  background-attachment: fixed;
   
+
+  
+}
+
+.contact-form{
+  text-align: center;
+  margin: 10px;
+
 }
 
 #message, #email, #name {
@@ -80,11 +95,41 @@
 
 #name {
   width: 400px;
-  margin-right: -200px;
+  
   
 }
 
 #email{
   width: 400px;
-  margin-left: -200px;
+ 
+}
+
+.footer{
+  text-align: center;
+  margin: auto;
+  line-height: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .1s ease;
+  background-color: #008CBA;
+
+}
+
+.myform{
+  text-align: center;
+  margin-left: 24%;
+  margin-right: 24%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+;
+
 }
