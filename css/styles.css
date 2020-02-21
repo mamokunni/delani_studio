@@ -50,3 +50,41 @@
   padding: auto;
   margin:40px;
 }
+
+.contact_us{
+  background-image: url(../assets/backgrounds/c_image.jpg);
+  text-align: center;
+  color: white;
+  height: 500px;
+  width: 110%;
+  margin: -20px;
+  padding: 20px;
+
+}
+
+.contact_us .col-md-4{
+  
+}
+
+#message, #email, #name {
+  background-color: transparent;
+  color: white;
+  border:2px solid whitesmoke;
+  padding: 2px;
+}
+  ::placeholder {
+    color: white;
+
+  }
+
+
+#name {
+  width: 400px;
+  margin-right: -200px;
+  
+}
+
+#email{
+  width: 400px;
+  margin-left: -200px;
+}
