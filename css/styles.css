@@ -28,3 +28,25 @@
   height: auto;
   width: auto;
 }
+
+.what_we_do{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.icons{
+  text-align: center;
+}
+
+.portfolio{
+  text-align: center;
+  margin: 30px;
+}
+
+.portfolio_image{
+
+  text-align: center;
+  padding: auto;
+  margin:40px;
+}
