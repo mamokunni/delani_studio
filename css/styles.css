@@ -133,3 +133,9 @@
 ;
 
 }
+
+.text_input{
+  text-align: center;
+  width: auto;
+  float: center;
+}
