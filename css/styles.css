@@ -130,6 +130,7 @@
   margin-right: 24%;
   margin-top: 10px;
   margin-bottom: 10px;
+  resize: vertical;
 ;
 
 }
@@ -138,4 +139,18 @@
   text-align: center;
   width: auto;
   float: center;
+  resize: vertical;
 }
+
+.whatwedo1{
+  display: none;
+}
+
+.whatwedo2{
+  display: none;
+}
+
+.whatwedo3{
+  display: none;
+}
+
