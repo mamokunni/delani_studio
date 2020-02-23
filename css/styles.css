@@ -1,27 +1,29 @@
-.home_page{
+.home_page {
   height: auto;
   width: auto;
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-attachment: fixed;
 }
-.home_page_text{
+
+.home_page_text {
   text-align: center;
   color: white;
   margin-top: 400px;
   background-attachment: fixed;
 }
-.home_mouse{
+
+.home_mouse {
   text-align: center;
   padding: 100px;
 }
 
-.about_us{
+.about_us {
   text-align: center;
   padding: 40px;
   line-height: 40px;
 }
 
-.services{
+.services {
   text-align: center;
   background-image: url(../assets/backgrounds/s_image.jpg);
   background-attachment: fixed;
@@ -33,29 +35,29 @@
 
 }
 
-.what_we_do{
+.what_we_do {
   text-align: center;
   padding: 20px;
 
 }
 
-.icons{
+.icons {
   text-align: center;
 }
 
-.portfolio{
+.portfolio {
   text-align: center;
   margin: 30px;
 }
 
-.portfolio_image{
+.portfolio_image {
 
   text-align: center;
   padding: auto;
-  margin:40px;
+  margin: 40px;
 }
 
-.contact_us{
+.contact_us {
   background-image: url(../assets/backgrounds/c_image.jpg);
   text-align: center;
   color: white;
@@ -67,44 +69,47 @@
 
 }
 
-.contact_form{
+.contact_form {
   text-align: center;
   background-attachment: fixed;
-  
 
-  
+
+
 }
 
-.contact-form{
+.contact-form {
   text-align: center;
   margin: 10px;
 
 }
 
-#message, #email, #name {
+#message,
+#email,
+#name {
   background-color: transparent;
   color: white;
-  border:2px solid whitesmoke;
+  border: 2px solid whitesmoke;
   padding: 2px;
 }
-  ::placeholder {
-    color: white;
 
-  }
+::placeholder {
+  color: white;
+
+}
 
 
 #name {
   width: 400px;
-  
-  
+
+
 }
 
-#email{
+#email {
   width: 400px;
- 
+
 }
 
-.footer{
+.footer {
   text-align: center;
   margin: auto;
   line-height: 10px;
@@ -124,33 +129,33 @@
 
 }
 
-.myform{
+.myform {
   text-align: center;
   margin-left: 24%;
   margin-right: 24%;
   margin-top: 10px;
   margin-bottom: 10px;
   resize: vertical;
-;
+  ;
 
 }
 
-.text_input{
+.text_input {
   text-align: center;
   width: auto;
   float: center;
   resize: vertical;
 }
 
-.whatwedo1{
+.whatwedo1 {
   display: none;
 }
 
-.whatwedo2{
+.whatwedo2 {
   display: none;
 }
 
-.whatwedo3{
+.whatwedo3 {
   display: none;
 }
 
