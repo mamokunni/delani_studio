@@ -16,20 +16,11 @@ $(document).ready(function() {
   });
 
 
-//form validation
-  $("form").submit(function() {
-    event.preventDefault();
-    var name = document.getElementById('name')
-    var email = document.getElementById('email')
-    var send = "Your Message is submitted"
-    if (name.value === '' || name.value == null) {
-      alert("Fill the form");
-    } else {
-      alert(send);
-    }
 
-
-  });
+  function sendMessage(){
+    var name = document.getElementById('name');
+    alert(name + "Your Message is submitted");
+  };
 
   $('.portimg').hover(function(){
     $('.porttext',this).slideToggle('slow');
