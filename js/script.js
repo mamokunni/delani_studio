@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  //whatwedo onclick description
   $(".clickable1").click(function() {
     $(".image1").toggle();
     $(".whatwedo1").toggle();
@@ -15,7 +16,7 @@ $(document).ready(function() {
   });
 
 
-
+//form validation
   $("form").submit(function() {
     event.preventDefault();
     var name = document.getElementById('name')
@@ -29,4 +30,10 @@ $(document).ready(function() {
 
 
   });
+
+  $('.portimg').hover(function(){
+    $('.porttext',this).slideToggle('slow');
+ }, function(){
+    $('.porttext',this).slideToggle('slow');
+ });
 });
